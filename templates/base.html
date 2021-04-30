@@ -24,6 +24,7 @@ t">
     {% else %}
         <p>You are not logged in.</p>
         <a href="{% url 'login' %}">Log In</a>
+        <a href="{% url 'password_reset_form' post.pk %}">Password Reset</a>
     {% endif %}
 
 {% block content %}
