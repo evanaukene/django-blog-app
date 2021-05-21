@@ -8,3 +8,5 @@ Heroku Application: https://kenzo-django-blog.herokuapp.com/
 
 -The user can change their password by going to https://kenzo-django-blog.herokuapp.com/accounts/password_change/
 
+-The user can login using https://kenzo-django-blog.herokuapp.com/accounts/login/
+
